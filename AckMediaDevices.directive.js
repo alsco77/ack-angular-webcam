@@ -49,17 +49,17 @@ var AckMediaDevices = (function () {
     /** @nocollapse */
     AckMediaDevices.ctorParameters = function () { return []; };
     AckMediaDevices.propDecorators = {
-        "array": [{ type: core_1.Input },],
-        "arrayChange": [{ type: core_1.Output },],
-        "error": [{ type: core_1.Input },],
-        "errorChange": [{ type: core_1.Output },],
-        "catcher": [{ type: core_1.Output, args: ['catch',] },],
-        "videoInputs": [{ type: core_1.Input },],
-        "videoInputsChange": [{ type: core_1.Output },],
-        "audioInputs": [{ type: core_1.Input },],
-        "audioInputsChange": [{ type: core_1.Output },],
-        "audioOutputs": [{ type: core_1.Input },],
-        "audioOutputsChange": [{ type: core_1.Output },],
+        'array': [{ type: core_1.Input },],
+        'arrayChange': [{ type: core_1.Output },],
+        'error': [{ type: core_1.Input },],
+        'errorChange': [{ type: core_1.Output },],
+        'catcher': [{ type: core_1.Output, args: ['catch',] },],
+        'videoInputs': [{ type: core_1.Input },],
+        'videoInputsChange': [{ type: core_1.Output },],
+        'audioInputs': [{ type: core_1.Input },],
+        'audioInputsChange': [{ type: core_1.Output },],
+        'audioOutputs': [{ type: core_1.Input },],
+        'audioOutputsChange': [{ type: core_1.Output },],
     };
     return AckMediaDevices;
 }());
